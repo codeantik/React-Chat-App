@@ -1,0 +1,29 @@
+
+.form {
+    display: flex;
+}
+
+.input {
+    width: 80%;
+    padding: 12px;
+    outline: none;
+    background: rgb(44, 40, 40);
+    color: white;
+    border-top: 2px solid rgb(214, 200, 75);
+    border-bottom-left-radius: 8px;
+}
+
+.sendButton {
+    border: none;
+    padding: 0 38px;
+    background: rgb(121, 194, 26);
+    color: white;
+    font-size: 1.5rem;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.sendButton:hover {
+    background: rgb(152, 202, 13);
+}
+
